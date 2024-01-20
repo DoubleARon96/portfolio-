@@ -38,6 +38,10 @@ h4{
     font-weight: 300;
     color: #fafafa;
 }
+
+.inline-block{
+    display: inline-block;
+}
 /*--------------------------------------------Heading*/
 
 header {
@@ -78,6 +82,7 @@ header {
 
 .list-inline-item:not(:last-child) {
     margin: 0;
+    
 }
 
 .menucontainer {
@@ -126,9 +131,8 @@ header {
 
 /*--------------------------------------------hover*/
 .hvr-sweep-to-bottom::before{
-    background-color: #b41616;
+    background-color:  rgba(0, 0, 0, 0.2);
     height: 120px;
-    background: #2f3334;
 }
 
 /*--------------------------------------------Footer*/
@@ -138,6 +142,50 @@ footer{
     min-height: 120px;
     margin: 0;
 }
-.inline-block{
-    display: inline-block;
+
+.cv-pdf i{
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+}
+.cv-pdf i:hover{
+    color: #e84610;
+}
+
+.socials-links {
+    padding-bottom: 15px;
+}
+.socials-links li a i{
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+}
+
+.socials-links li a i:hover{
+    background-color: #e84610;
+}
+
+.footer-details{
+    padding:20px;
 }
