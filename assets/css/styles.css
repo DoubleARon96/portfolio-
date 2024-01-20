@@ -130,9 +130,10 @@ header {
 }
 
 /*--------------------------------------------hover*/
-.hvr-sweep-to-bottom::before{
+.hvr-sweep-to-bottom:before{
     background-color:  rgba(0, 0, 0, 0.2);
     height: 120px;
+    background: rgba(0, 0, 0, 0.2);
 }
 
 /*--------------------------------------------Footer*/
@@ -160,6 +161,7 @@ footer{
 
 .socials-links {
     padding-bottom: 15px;
+    display: inline;
 }
 .socials-links li a i{
     width: 32px;
