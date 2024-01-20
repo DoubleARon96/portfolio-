@@ -126,8 +126,9 @@ header {
 
 /*--------------------------------------------hover*/
 .hvr-sweep-to-bottom::before{
-    background-color: 0,0,0,0.2;
+    background-color: #b41616;
     height: 120px;
+    background: #2f3334;
 }
 
 /*--------------------------------------------Footer*/
@@ -136,4 +137,7 @@ footer{
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+}
+.inline-block{
+    display: inline-block;
 }
