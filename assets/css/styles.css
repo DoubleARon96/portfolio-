@@ -7,7 +7,11 @@
 }
 
 .bg-color-three-reasons {
-    background-color: #fff;   
+    background-color: #fff;
+}
+
+.bg-color-personal-info {
+    background-color: #f4f4f4;
 }
 
 .ui-menu-color-home {
@@ -25,11 +29,30 @@
 .ui-menu-color-download {
     background-color: #525252;
 }
-/*--------------------------------------------Special padding/margin/text*/
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/* ----------------------------------------Special paddings/margins/text */
+
 h1,
 h2,
 h3,
-h4{
+h4 {
     margin: 0;
 }
 
@@ -43,26 +66,10 @@ h4{
     color: #fafafa;
 }
 
-.inline-block{
+.inline-block {
     display: inline-block;
 }
 
-.row-table {
-    display: table;
-}
-
-.section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}
-
-.section-heading {
-   font-family: "Exo", sans-serif;
-   font-weight: 300;
-   margin-top: 25px; 
-   margin-bottom: 40px;
-}
 /*--------------------------------------------Heading*/
 
 header {
@@ -74,7 +81,7 @@ header {
 }
 
 .logo {
-    background: url("../images/image-of-aaron.jpg");
+    background: url("../images/rosie.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,20 +110,19 @@ header {
 
 .list-inline-item:not(:last-child) {
     margin: 0;
-    
 }
 
 .menucontainer {
     font-size: 0;
 }
-/*--------------------------------------------Nav*/
-#nav{
-    margin: 0;
-}
 
 #nav li {
     font-size: 14px;
     padding: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 .menuitem {
@@ -150,70 +156,66 @@ header {
     letter-spacing: 2px;
 }
 
-/*--------------------------------------------hover*/
-.hvr-sweep-to-bottom:before{
-    background-color:  rgba(0, 0, 0, 0.2);
-    height: 120px;
+/*--------------------------------------------Hover.css*/
+
+.hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
+    height: 120px;
 }
 
-/*--------------------------------------------Footer*/
-footer{
+/* ----------------------------------------Footer */
+
+footer {
     background-color: #525252;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
 }
 
-.cv-pdf i{
+.cv-pdf i {
     font-size: 18px;
     color: #fafafa;
     text-align: center;
     padding-left: 5px;
     transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-    -ms-transition: all 0.35s ease-in-out;
 }
-.cv-pdf i:hover{
+
+.cv-pdf i:hover {
     color: #e84610;
 }
 
-.socials-links {
+.social-links {
     padding-bottom: 15px;
-    display: inline;
 }
-.socials-links li a i{
+
+.social-links li a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
     font-size: 13px;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
     background: #8f8f8f;
     transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-    -ms-transition: all 0.35s ease-in-out;
 }
 
-.socials-links li a i:hover{
-    background-color: #e84610;
+.social-links li a i:hover {
+    background: #e84610;
 }
 
-.footer-details{
-    padding:20px;
+#footer-details {
+    padding: 20px;
 }
 
-/*--------------------------------------------Three Reasons*/
+/* ----------------------------------------Three Reasons */
 
 .three-reasons-icon {
     font-size: 26px;
