@@ -27,14 +27,14 @@
                 </div>
                 <div class="row no-gutters">
                     <div class="col">
-                        <ul id="nav" class="list-inline menucontainer row">
-                            <li class="col-6 col-sm-2 ui-menu-color-home menuitem">
+                        <ul id="nav" class="list-inline menucontainer">
+                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menuitem">
                                 <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                             </li>
-                            <li class="col-6 col-sm-2 ui-menu-color-resume menuitem">
+                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-resume menuitem">
                                 <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
                             </li>
-                            <li class="col-6 col-sm-2 ui-menu-color-contact menuitem">
+                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-contact menuitem">
                                 <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
                             </li>
                             <li class="col-6 col-sm-2 ui-menu-color-interests menuitem">
@@ -43,8 +43,8 @@
                             <li class="col-6 col-sm-2 ui-menu-color-github menuitem">
                                 <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github" aria-hidden="true"></i><span>GitHub</span></a>
                             </li>
-                            <li class="col-6 col-sm-2 ui-menu-color-download menuitem">
-                                <a href="assets/cv/sample-cv.pdf" target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
+                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-download menuitem">
+                                <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
                             </li>
                         </ul>
                     </div>
@@ -196,8 +196,19 @@
         </div>
 
     </footer>
+    <script>
+        function initMap(){
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 3,
+                center: {
+                    lat: 46.619261,
+                    lng: -33.134766
+                }
+            });
+        }
+    </script>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE&callback=initMap"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvs8pK6hdX38w9Rkg9AfiBZPwY_AIqZLs=initMap"></script>
     <script src="assets/js/maps.js"></script>
 </body>
 
