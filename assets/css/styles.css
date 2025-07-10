@@ -118,7 +118,7 @@ header {
 }
 
 .logo {
-    background: url("../images/rosie.jpg");
+    background: url("assets\images\image-of-aaron.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,6 +148,7 @@ header {
 
 #nav {
     margin: 0;
+    display: inline-flex;
 }
 
 #nav li {
@@ -158,6 +159,7 @@ header {
     height: 120px;
     text-align: center;
     padding: 0;
+    margin: 2px !important;
 }
 
 .menuitem a {
@@ -186,6 +188,9 @@ header {
     letter-spacing: 2px;
 }
 
+.nav-title {
+    font-size: clamp(5.0rem, 5vw, 3rem);
+}
 
 /*--------------------------------------------Hover.css*/
 
@@ -313,6 +318,15 @@ footer .cv-pdf i:hover {
 
 .progress-section {
     margin: 40px 20px;
+}
+.bg-liquid{
+    background-color: aqua;
+}
+.bg-csharp{
+    background-color: lightskyblue;
+}
+.bg-sql{
+    background-color: chartreuse;
 }
 
 
