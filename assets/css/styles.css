@@ -149,6 +149,8 @@ header {
 #nav {
     margin: 0;
     display: inline-flex;
+    overflow: overlay;
+    width: stretch;
 }
 
 #nav li {
