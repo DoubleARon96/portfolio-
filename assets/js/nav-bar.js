@@ -1,5 +1,6 @@
 const heroSection = `
   <section class="hero">
+  <div class="container-fluid">
     <div class="row no-gutters">
         <a class="col-md-4 logo" id="photo" href="/"></a>
         <div class="col-md-8">
@@ -40,6 +41,7 @@ const heroSection = `
                 </div>
             </div>
         </div>
+    </div>
     </div>
   </section>
 `;
