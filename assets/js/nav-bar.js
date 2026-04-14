@@ -21,6 +21,10 @@ const heroSection = `
                             <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap"
                                     aria-hidden="true"></i><span class="nav-title">Resume</span></a>
                         </li>
+                        <li class="col-3 col-sm-2 col-md col-md-4 list-inline-item ui-menu-color-download menuitem">
+                            <a href="work-showcase.html" class="hvr-sweep-to-bottom"><i class="fa fa-download"
+                                    aria-hidden="true"></i><span class="nav-title">Work Showcase</span></a>
+                        </li>
                         <li class="col-3 col-sm-2 col-md col-md-4 list-inline-item ui-menu-color-contact menuitem">
                             <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-comment-o"
                                     aria-hidden="true"></i><span class="nav-title">Contact</span></a>
