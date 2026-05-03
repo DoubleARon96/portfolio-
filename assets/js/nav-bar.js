@@ -38,7 +38,7 @@ const heroSection = `
                                     aria-hidden="true"></i><span class="nav-title">GitHub</span></a>
                         </li>
                         <li class="col-3 col-sm-2 col-md col-md-4 list-inline-item ui-menu-color-download menuitem">
-                            <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-download"
+                            <a href="cv-page.html" class="hvr-sweep-to-bottom"><i class="fa fa-download"
                                     aria-hidden="true"></i><span class="nav-title">Download CV</span></a>
                         </li>
                     </ul>
