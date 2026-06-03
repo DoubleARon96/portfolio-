@@ -37,6 +37,10 @@ const heroSection = `
                             <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github"
                                     aria-hidden="true"></i><span class="nav-title">GitHub</span></a>
                         </li>
+                        <li class="col-3 col-sm-2 col-md col-md-4 ui-menu-color-ecommerce-marketing menuitem">
+                            <a href="ecommerce-and-marketing.html" class="hvr-sweep-to-bottom"><i class="fa fa-github"
+                                    aria-hidden="true"></i><span class="nav-title">Ecommerce & Marketing</span></a>
+                        </li>
                         <li class="col-3 col-sm-2 col-md col-md-4 list-inline-item ui-menu-color-download menuitem">
                             <a href="cv-page.html" class="hvr-sweep-to-bottom"><i class="fa fa-download"
                                     aria-hidden="true"></i><span class="nav-title">Download CV</span></a>
