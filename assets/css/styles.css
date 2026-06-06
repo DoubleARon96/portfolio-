@@ -108,6 +108,10 @@ h4 {
     margin-top: 25px;
     margin-bottom: 40px;
 }
+.description-paragraph {
+    margin: 5px;
+    width: 80%;
+}
 
 
 /*--------------------------------------------Heading*/
@@ -438,6 +442,11 @@ button[type="submit"] {
     margin-bottom: 20px;
 }
 
+.showcase-image{
+    width: 80%;
+    margin: 2px;
+}
+
 /*--------------------------------------------Map*/
 div#map {
     min-height: 360px;
@@ -446,6 +455,11 @@ div#map {
 /*--------------------------------------------resume page*/
 .btn-group{
     display: inline;
+    margin: 5px;
+
+}
+.btn{
+    margin: 5px;
 }
 
 /*--------------------------------------------Media Queries*/
