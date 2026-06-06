@@ -204,6 +204,30 @@ header {
     height: 120px;
 }
 
+.menuitem:hover .work-showcase-nav {
+  display: none;
+}
+.sub-menu{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+.sub-menu > .ecommerce-subtitle{
+    top: 3px;
+    display: inherit;
+}
+.sub-menu > .showcase-subtitle{
+    bottom: 3px;
+    display: inherit;
+}
+.menuitem:hover .sub-menu{
+    display: block;
+}
+
 
 /*--------------------------------------------Footer*/
 
@@ -417,6 +441,11 @@ button[type="submit"] {
 /*--------------------------------------------Map*/
 div#map {
     min-height: 360px;
+}
+
+/*--------------------------------------------resume page*/
+.btn-group{
+    display: inline;
 }
 
 /*--------------------------------------------Media Queries*/

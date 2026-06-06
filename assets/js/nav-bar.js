@@ -21,9 +21,18 @@ const heroSection = `
                             <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap"
                                     aria-hidden="true"></i><span class="nav-title">Resume</span></a>
                         </li>
-                        <li class="col-3 col-sm-2 col-md col-md-4 list-inline-item ui-menu-color-download menuitem">
-                            <a href="work-showcase.html" class="hvr-sweep-to-bottom"><i class="fa fa-download"
-                                    aria-hidden="true"></i><span class="nav-title">Work Showcase</span></a>
+                        <li class="col-3 col-sm-2 col-md col-md-4 list-inline-item ui-menu-color-download menuitem hvr-sweep-to-bottom">
+                            <a class="hvr-sweep-to-bottom"><i class="fa fa-download work-showcase-nav"
+                                    aria-hidden="true"></i><span class="work-showcase-nav nav-title">Work Showcase</span></a>
+                                    <ul class="sub-menu">
+                                    <li class="ecommerce-subtitle"><a href="ecommerce-and-marketing.html">
+                                    <span class="nav-subtitle">Ecommerce & Marketing</span></a>
+                                    </li>
+                                    <br>
+                                    <li class="showcase-subtitle "><a href="work-showcase.html">
+                                    <span class="nav-subtitle">Work Showcase</span></a>
+                                    </li>
+                                    </ul>
                         </li>
                         <li class="col-3 col-sm-2 col-md col-md-4 list-inline-item ui-menu-color-contact menuitem">
                             <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-comment-o"
@@ -37,7 +46,7 @@ const heroSection = `
                             <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github"
                                     aria-hidden="true"></i><span class="nav-title">GitHub</span></a>
                         </li>
-                        <li class="col-3 col-sm-2 col-md col-md-4 ui-menu-color-ecommerce-marketing menuitem">
+                        <li class="col-3 col-sm-2 col-md col-md-4 ui-menu-color-ecommerce-marketing menuitem d-none">
                             <a href="ecommerce-and-marketing.html" class="hvr-sweep-to-bottom"><i class="fa fa-github"
                                     aria-hidden="true"></i><span class="nav-title">Ecommerce & Marketing</span></a>
                         </li>
