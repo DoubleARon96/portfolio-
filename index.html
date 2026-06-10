@@ -17,19 +17,21 @@
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZQK1R0EW65"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-ZQK1R0EW65');
-</script>
 
 <body>
     <header>
         <div id="nav-bar">
 
         </div>
+        <div id="cookie-banner" style="
+  position: fixed; bottom: 20px; left: 20px; right: 20px;
+  background: #fff; padding: 20px; border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2); display: block; z-index: 9999;
+">
+  <p>We use Google Analytics to improve your experience. Do you accept?</p>
+  <button id="accept-cookies" onclick="acceptCookies()">Accept</button>
+  <button id="decline-cookies" onclick="declineCookies()">Decline</button>
+</div>
     </header>
     <section class="container-fluid">
         <div class="row">
@@ -206,7 +208,8 @@
                     </div>
 
                 </footer>
+
 </body>
 <script src="assets/js/nav-bar.js"></script>
-
+<script src="assets/js/google-analytics.js"></script>
 </html>
