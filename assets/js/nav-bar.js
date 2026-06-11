@@ -7,6 +7,7 @@ const heroSection = `
             <div class="row no-gutters bg-color-name-title">
                 <div class="col heading">
                     <h1 class="name">Aaron Storey</h1>
+                    <img class="aaron-storey-logo image-fluid" src="assets/images/aaron-storey-logo.png" alt="Aaron Storey Logo">
                     <h2 class="title"> Software Developer / Ecommerce Specialist</h2>
                 </div>
             </div>
