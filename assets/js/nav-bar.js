@@ -1,3 +1,17 @@
+
+const screen = window.innerWidth;
+
+function togglelogo() {
+    if (screen < 500) {
+        classForLogo = "aaron-storey-logo-sm-screen";
+    } else{
+        classForLogo = "aaron-storey-logo-bg-screen";
+    }
+    return classForLogo;
+}
+togglelogo();
+
+
 const heroSection = `
   <section class="hero">
   <div class="container-fluid">
@@ -7,7 +21,7 @@ const heroSection = `
             <div class="row no-gutters bg-color-name-title">
                 <div class="col heading">
                     <h1 class="name">Aaron Storey</h1>
-                    <img class="aaron-storey-logo image-fluid" src="assets/images/aaron-storey-logo.png" alt="Aaron Storey Logo">
+                    <img class="${classForLogo} image-fluid " src="assets/images/aaron-storey-logo.png" alt="Aaron Storey Logo">
                     <h2 class="title"> Software Developer / Ecommerce Specialist</h2>
                 </div>
             </div>
@@ -65,3 +79,4 @@ const heroSection = `
 `;
 
 document.querySelector("#nav-bar").innerHTML = heroSection;
+console.log(screen);

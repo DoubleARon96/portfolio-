@@ -200,12 +200,19 @@ header {
 .nav-title {
     font-size: clamp(5.0rem, 5vw, 3rem);
 }
-.aaron-storey-logo{
-    height: 40%;
+
+.aaron-storey-logo-bg-screen{
     float: right;
     position: absolute;
     top: 20px;
     right: 20px;
+    height: 40%;
+}
+
+.aaron-storey-logo-sm-screen{
+    display: block;
+    height: 200px;
+
 }
 
 /*--------------------------------------------Hover.css*/
