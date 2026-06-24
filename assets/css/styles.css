@@ -460,6 +460,9 @@ button[type="submit"] {
     width: 80%;
     margin: 2px;
 }
+.list-inline-item{
+    height: 100%;
+}
 
 /*--------------------------------------------Map*/
 div#map {
