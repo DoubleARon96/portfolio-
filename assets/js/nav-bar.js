@@ -129,4 +129,3 @@ const footer =`
 
 document.querySelector("#nav-bar").innerHTML = heroSection;
 document.querySelector("#footer").innerHTML = footer;
-console.log(screen);

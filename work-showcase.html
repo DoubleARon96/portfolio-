@@ -21,51 +21,110 @@
 
         </div>
         <section class="showcase-section">
-            <div class="container bg-color-personal-info">
+            <div class="container-fluid bg-color-personal-info">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-md-4 bg-color-personal-info section-column">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="section-heading uppercase">
+                                    Experience
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="personal-info-item">
+                            <div class="key">
+                                <p class="uppercase">
+                                    Software :
+                                </p>
+
+                            </div>
+                            <div class="value">
+                                <ul>
+                                    <li>Adobe Photoshop</li>
+                                    <li>Adobe Illustrator</li>
+                                    <li>Adobe InDesign</li>
+                                    <li>Adobe video Editing</li>
+                                    <li>Streamlabs</li>
+                                    <li>Canva</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="personal-info-item">
+                            <div class="key">
+                                <p class="uppercase">
+                                    Skills :
+                                </p>
+                            </div>
+                            <div class="value">
+                                <ul>
+                                    <li>Graphic Design</li>
+                                    <li>Video Editing</li>
+                                    <li>Content Creation</li>
+                                    <li>Social Media Management</li>
+                                    <li>Customer Service</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="personal-info-item">
+                            <div class="key">
+                                <p class="uppercase">
+                                    Platforms:
+                                </p>
+                            </div>
+                            <div class="value">
+                                <ul>
+                                    <li>Instagram</li>
+                                    <li>Facebook</li>
+                                    <li>TikTok</li>
+                                    <li>YouTube</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
                         <h3 class="section-heading uppercase">
                             Work Showcase
                         </h3>
+                        <div class="col-12 text-center">
+                            <img src="assets\images\getmytools-screenshot.png" alt="GetMyTools Screenshot"
+                                class="showcase-image img-fluid">
+                            <br>
+                            <a class="btn btn-primary" href="https://getmytools.com" target="_blank">Visit
+                                GetMyTools</a>
+                        </div>
+                        <div class="col-12 text-center">
+                            <h2 class="m-auto">Marketing & Design</h2>
+                            <p class="text-center description-paragraph m-auto">In this section of my portfolio, I
+                                showcase my
+                                skills in marketing and design. Use the buttons below to view the PDF leaflets I created
+                                for Get
+                                My Tools and Silicone Hose Store.
+                            </p>
+                            <div class="col-12 text-center">
+                                <button class="btn btn-primary"
+                                    onclick="changePDF('assets/files/getmytools-leaflet.pdf')">Get
+                                    My Tools</button>
+                                <button class="btn btn-primary"
+                                    onclick="changePDF('assets/files/shs-leaflet.pdf')">Slicone Hose
+                                    Store</button>
+                                <object id="pdf-link" data="assets\files\getmytools-leaflet.pdf" type="application/pdf"
+                                    width="80%" height="600px">
+                                    <p>Your browser doesn't support PDFs. <a id="pdf-link-download"
+                                            href="assets\files\getmytools-leaflet.pdf">Download</a></p>
+                                    <embed id="pdf-embed" src="assets\files\getmytools-leaflet.pdf"
+                                        type="application/pdf" width="100%" height="600px" />
+                                </object>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <img src="assets\images\getmytools-screenshot.png" alt="GetMyTools Screenshot"
-                            class="showcase-image img-fluid">
-                        <br>
-                        <a class="btn btn-primary" href="https://getmytools.com" target="_blank">Visit GetMyTools</a>
-                    </div>
-                </div>
+                    <div class="row">
+                        <div class="col text-center">
+                            <video src="">
 
-                <div class="row">
-                    <h2 class="m-auto">Marketing & Design</h2>
-                    <p class="text-center description-paragraph m-auto">In this section of my portfolio, I showcase my
-                        skills in marketing and design. Use the buttons below to view the PDF leaflets I created for Get
-                        My Tools and Silicone Hose Store.
-                    </p>
-                    <div class="col-12 text-center">
-                        <button class="btn btn-primary" onclick="changePDF('assets/files/getmytools-leaflet.pdf')">Get
-                            My Tools</button>
-                        <button class="btn btn-primary" onclick="changePDF('assets/files/shs-leaflet.pdf')">Slicone Hose
-                            Store</button>
-                        <object id="pdf-link" data="assets\files\getmytools-leaflet.pdf" type="application/pdf"
-                            width="80%" height="600px">
-                            <p>Your browser doesn't support PDFs. <a id="pdf-link-download"
-                                    href="assets\files\getmytools-leaflet.pdf">Download</a></p>
-                            <embed id="pdf-embed" src="assets\files\getmytools-leaflet.pdf" type="application/pdf"
-                                width="100%" height="600px" />
-                        </object>
+                            </video>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col text-center">
-                        <video src="">
-
-                        </video>
-                    </div>
-                </div>
-            </div>
         </section>
     </header>
     <section id="footer">
