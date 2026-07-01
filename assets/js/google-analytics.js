@@ -1,6 +1,6 @@
-function acceptCookies() {
-  localStorage.setItem('cookiesAccepted', 'true');
-  document.getElementById('cookie-banner').style.display = 'none';
+function loadGTM() {
+  if (window.gtmLoaded) return; // Prevent duplicate loads
+  window.gtmLoaded = true;
 
   const script = document.createElement('script');
   script.src = 'https://www.googletagmanager.com/gtag/js?id=G-ZQK1R0EW65';
@@ -17,13 +17,22 @@ function acceptCookies() {
   document.head.appendChild(script);
 }
 
+function acceptCookies() {
+  localStorage.setItem('cookiesAccepted', 'true');
+  document.getElementById('cookie-banner').style.display = 'none';
+  loadGTM();
+}
+
 function declineCookies() {
   localStorage.setItem('cookiesAccepted', 'false');
   document.getElementById('cookie-banner').style.display = 'none';
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-  if (localStorage.getItem('cookiesAccepted') === 'true') {
-    acceptCookies();
+  const consent = localStorage.getItem('cookiesAccepted');
+
+  if (consent === 'true') {
+    loadGTM();
+    document.getElementById('cookie-banner').style.display = 'none';
   }
 });
